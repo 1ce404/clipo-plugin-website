@@ -1,0 +1,21 @@
+# 依赖与构建产物
+node_modules
+.next
+out
+coverage
+*.tsbuildinfo
+next-env.d.ts
+
+# 环境变量：只提交 *.example
+.env
+.env*.local
+
+# 系统与编辑器
+.DS_Store
+*-debug.log*
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# 本地 Agent 配置
+.claude
